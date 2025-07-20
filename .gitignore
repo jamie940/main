@@ -1,0 +1,34 @@
+
+# .env 파일 무시
+server/.env
+Server/node_modules
+# 변화테스트
+
+
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+timemap-creator/node_modules
+timemap-creator/.pnp
+timemap-creator/.pnp.js
+
+# testing
+timemap-creator/coverage
+
+# production
+timemap-creator/build
+
+# misc
+timemap-creator/.DS_Store
+timemap-creator/.env
+timemap-creator/.env.local
+timemap-creator/.env.development.local
+timemap-creator/.env.test.local
+timemap-creator/.env.production.local
+
+timemap-creator/npm-debug.log*
+timemap-creator/yarn-debug.log*
+timemap-creator/yarn-error.log*
